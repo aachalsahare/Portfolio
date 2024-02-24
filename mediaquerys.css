@@ -1,0 +1,1008 @@
+@media screen and (min-width:320px) and (max-width:479px) and (orientation:portrait) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 130px 15px 0 15px;
+        min-height: 520px;
+    }
+
+    #greetings {
+        font-size: 14px;
+    }
+
+    #creator {
+        font-size: 34px;
+    }
+
+    #profession {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 30px;
+    }
+
+    .aboutmebtn {
+        font-size: 12px;
+        font-weight: normal;
+        padding: 10px 25px;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .brand-mouse-scroller {
+        top: 30px;
+    }
+
+    .mouse {
+        padding: 5px 10px;
+    }
+
+    .education li {
+        min-height: 130px;
+    }
+
+    .contact-btn,
+    .download-btn {
+        margin: 20px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .col-md-8 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .col-md-8 {
+        margin: 0;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 100%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 00px 20px 20px;
+        float: left;
+        padding-left: 90px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 {
+        width: 100%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 0px 20px 20px;
+        float: left;
+        padding-left: 90px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-heading h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-heading h4.subheading {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-body p {
+        font-size: 12px;
+    }
+
+    .resume-panel1 .resume-heading1 h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4.subheading1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-body1 p {
+        font-size: 12px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-4 {
+        width: 90%;
+        float: none;
+        padding: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:479px) and (orientation:landscape) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px 15px 0 15px;
+        min-height: 350px;
+    }
+
+    #greetings {
+        font-size: 14px;
+    }
+
+    #creator {
+        font-size: 34px;
+        margin: 0;
+    }
+
+    #profession {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .aboutmebtn {
+        font-size: 12px;
+        font-weight: normal;
+        padding: 10px 25px;
+        margin: 15px 0;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .brand-mouse-scroller {
+        top: 20px;
+    }
+
+    .mouse {
+        padding: 5px 10px;
+    }
+
+    .education li {
+        min-height: 130px;
+    }
+
+    .contact-btn,
+    .download-btn {
+        margin: 20px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .col-md-8 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .col-md-8 {
+        margin: 0;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 100%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 00px 20px 20px;
+        float: left;
+        padding-left: 90px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 {
+        width: 100%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 0px 20px 20px;
+        float: left;
+        padding-left: 90px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-heading h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-heading h4.subheading {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-body p {
+        font-size: 12px;
+    }
+
+    .resume-panel1 .resume-heading1 h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4.subheading1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-body1 p {
+        font-size: 12px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-4 {
+        width: 90%;
+        float: none;
+        padding: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) and (orientation:portrait) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 170px 15px 0 15px;
+        min-height: 768px;
+    }
+
+    #greetings {
+        font-size: 18px;
+    }
+
+    #creator {
+        font-size: 55px;
+    }
+
+    #profession {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+    }
+
+    .aboutmebtn {
+        font-size: 16px;
+    }
+
+    /* .brand-mouse-scroller {
+        top: 30px;
+    } */
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .col-md-8 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .col-md-8 {
+        margin: 0;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel1 {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel .resume-heading h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .resume-panel .resume-heading h4.subheading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4.subheading1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-body1 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .col-md-3 {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-4 {
+        width: 90%;
+        float: none;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px) and (orientation:landscape) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 60px 15px 0 15px;
+        min-height: 480px;
+    }
+
+    #greetings {
+        font-size: 18px;
+    }
+
+    #creator {
+        font-size: 55px;
+        margin: 0;
+    }
+
+    #profession {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .aboutmebtn {
+        font-size: 16px;
+    }
+
+    .brand-mouse-scroller {
+        top: 30px;
+    }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .col-md-8 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact .col-md-8 {
+        margin: 0;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel1 {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel .resume-heading h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .resume-panel .resume-heading h4.subheading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .resume-panel .resume-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-heading1 h4.subheading1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .resume-panel1 .resume-body1 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .col-md-3 {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-4 {
+        width: 90%;
+        float: none;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px) and (orientation:portrait) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 200px 15px 0 15px;
+        min-height: 991px;
+    }
+
+    #greetings {
+        font-size: 30px;
+    }
+
+    #creator {
+        font-size: 90px;
+        font-weight: normal;
+    }
+
+    #profession {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .aboutmebtn {
+        font-size: 25px;
+        font-weight: normal;
+        padding: 22px 40px;
+        margin: 50px 0;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 45px;
+        margin: 20px;
+    }
+
+    .brand-mouse-scroller {
+        top: 40px;
+    }
+
+    #navbar {
+        max-width: 100%;
+    }
+
+    #aboutme .col-md-8 {
+        width: 100%;
+    }
+
+    #aboutme .col-md-4 {
+        width: 100%;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel1 {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #contact .col-md-8 {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:991px) and (orientation:landscape) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 100px 15px 0 15px;
+        min-height: 769px;
+    }
+
+    #greetings {
+        font-size: 30px;
+    }
+
+    #creator {
+        font-size: 90px;
+        font-weight: normal;
+    }
+
+    #profession {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .aboutmebtn {
+        font-size: 25px;
+        font-weight: normal;
+        padding: 22px 40px;
+        margin: 50px 0;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 45px;
+        margin: 20px;
+    }
+
+    .brand-mouse-scroller {
+        top: 40px;
+    }
+
+    #navbar {
+        max-width: 100%;
+    }
+
+    #aboutme .col-md-8 {
+        width: 100%;
+    }
+
+    #aboutme .col-md-4 {
+        width: 100%;
+    }
+
+    #img-circle {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resume-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        background-color: crimson;
+        border: 1px solid crimson;
+        border-radius: 100%;
+    }
+
+    .resume-img h4,
+    .resume-inverted h4 {
+        margin-top: 23px;
+    }
+
+    .resume-panel {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .resume-panel1 {
+        width: 90%;
+        margin-top: -90px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        margin-left: 70px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #contact .col-md-8 {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) and (orientation:portrait) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 250px 15px 0 15px;
+        min-height: 1200px;
+    }
+
+    #greetings {
+        font-size: 35px;
+    }
+
+    #creator {
+        font-size: 115px;
+        font-weight: normal;
+    }
+
+    #profession {
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+    .aboutmebtn {
+        font-size: 28px;
+        font-weight: normal;
+        padding: 30px 50px;
+        margin: 60px 0;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 55px;
+        margin: 30px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) and (orientation:landscape) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        padding: 150px 15px 0 15px;
+        min-height: 992px;
+    }
+
+    #greetings {
+        font-size: 35px;
+    }
+
+    #creator {
+        font-size: 115px;
+        font-weight: normal;
+    }
+
+    #profession {
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+    .aboutmebtn {
+        font-size: 28px;
+        font-weight: normal;
+        padding: 30px 50px;
+        margin: 60px 0;
+    }
+
+    .social-profile a {
+        box-sizing: border-box;
+        font-size: 55px;
+        margin: 30px;
+    }
+
+}
