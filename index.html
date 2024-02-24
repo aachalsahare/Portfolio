@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aachal's Portfolio</title>
+
+    <!-- Theme css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- MediaQueries css -->
+    <link rel="stylesheet" href="mediaquerys.css">
+
+    <!-- custom icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600"
+        rel="stylesheet" type="text/css">
+    <script src="jquery-3.3.1.js"></script>
+</head>
+
+<body onload="scrollWin()">
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <p id="greetings">Hello, I'm</p>
+                <h1 id="creator">Aachal Sahare</h1>
+                <h3 id="profession">Full Stack Developer</h3>
+                <a href="#aboutme" class="aboutmebtn">More About Me</a>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="social-profile">
+                    <a href="https://www.facebook.com/aachal.sahare.50">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aachal-sahare-a35a8a206/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/aachalsahare">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://web.whatsapp.com/7507106273">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/aachal_214/">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="brand-mouse-scroller">
+                    <div class="mouse">
+                        <div class="scroller"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="topnav" id="myTopnav">
+                    <a href="#" onclick="toggle()"><span class="logo">Aachal</span></a>
+                    <a href="#" onclick="toggle()">home</a>
+                    <a href="#aboutme" onclick="toggle()">about</a>
+                    <a href="#resume" onclick="toggle()">resume</a>
+                    <a href="#skills" onclick="toggle(), skillprogress()">skills</a>
+                    <a href="#contact" onclick="toggle()">contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="toggle()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="about">
+                    <h2 class="section-divider">ABOUT ME</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="row">
+                <div class="objective">
+                    <div class="col-md-8">
+                        <h2>Objective</h2>
+                        <p>
+                            I'm a Full Stack Developer with a high dose of creativity and professionalism. My
+                            professional objectives are to develop and
+                            create logical and creative projects, which stand out from all others and are remembered.
+                            I'm
+                            professional and communicative, always deliver on time and Guarantee 100% Satisfaction and
+                            Quality.
+                        </p>
+                        <h2>What I Do ?</h2>
+                        <p id="bottom-spacing">
+                            I am very dedicated about web programming and I try to learn a new skill every day. I'm
+                            honestly, communicable, responsible
+                            and always ready to work on something new.
+                        </p>
+                        <a href="sms:7507106273" class="contact-btn">
+                            <i class="fa fa-paper-plane"></i>Send Me Message</a>
+                        <a href="Aachal_Sahare-Resume.pdf" class="download-btn">
+                            <i class="fa fa-download"></i>Download My CV</a>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="photo">
+                            <img id="img-circle" src="Images/Myimg.jpeg" alt="">
+                        </div>
+                        <div class="perspnal-details">
+                            <ul>
+                                <li>
+                                    <strong>Name:</strong> Aachal Sahare</li>
+                                <li>
+                                    <strong>Date of birth:</strong> 21 April 2001 </li>
+                                <li>
+                                    <strong>Address:</strong> Nagpur,Maharashtra</li>
+                                <li>
+                                    <strong>Nationality:</strong> Indian</li>
+                                <li>
+                                    <strong>Email:</strong> sahare2001aachal@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="qualification">
+                    <h2 class="section-divider">Qualification</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="education">
+                    <ul class="center-line">
+                        <li>
+                            <div class="resume-img">
+                                <h4>
+                                    2023
+                                </h4>
+                            </div>
+                            <div class="resume-panel">
+                                <div class="resume-heading">
+                                    <h4>Pune Vidhyarthi Griha's College of Engineering and Technology,Pune</h4>
+                                    <h4 class="subheading">B.E Information Technology</h4>
+                                </div>
+                                
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume-inverted">
+                                <div class="resume-img">
+                                    <h4>
+                                        2019
+                                    </h4>
+                                </div>
+                                <div class="resume-panel1">
+                                    <div class="resume-heading1">
+                                        <h4>Major Hement Jakate Viddyaniketan</h4>
+                                        <h4 class="subheading1">
+                                            Higher Secondary School Certificate</h4>
+                                    </div>
+                                    
+                                </div>
+                        </li>
+                        <li>
+                            <div class="resume-img">
+                                <h4>
+                                    2017
+                                </h4>
+                            </div>
+                            <div class="resume-panel">
+                                <div class="resume-heading">
+                                    <h4>Vidharbha Buniyadi High School,Nagpur</h4>
+                                    <h4 class="subheading">Secondary School Certificate</h4>
+                                </div>
+                                
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" onmouseover="return skillprogress()">
+        <div class="container skill-progress">
+            <div class="row">
+                <div class="heading-skills">
+                    <h2 class="section-divider1">Skills</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="skill">
+                        <p>C Programming
+                            <span>90%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar1"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>C++ 
+                            <span>90%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar2"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Core Java
+                            <span>85%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar3"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>HTML
+                            <span>75%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="skill">
+                        <p>CSS
+                            <span>75%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar5"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Javascript
+                            <span>75%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar6"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JQuery
+                            <span>75%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar7"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Bootstrap
+                            <span>70%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar8"></div>
+                        </div>
+                    <div class="skill">
+                        <p>SQL
+                            <span>80%</span>
+                        </p>
+                        <div class="progress1">
+                            <div id="progress-bar8"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-heading">
+                    <h2 class="section-divider">GET IN TOUCH</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row clearfix">
+                        <div class="col-4">
+                            <div class="personal-info">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <p>Nagpur </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="personal-info">
+                                <div class="contact-icon">
+                                    <a href="tel:7507106273"><i class="fa fa-phone"></i></a>
+                                </div>
+                                <p>7507106273</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="personal-info">
+                                <div class="contact-icon">
+                                    <a href="mailto:sahare2001aachal@gmail.com"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <p>sahare2001aachal@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email
+                        and I
+                        will get back to you as soon as possible!</p>
+                    <form action="" method="POST" class="contact-form">
+                        <div class="row">
+                            <input type="text" name="fname" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="texarea" id="contact-texarea" placeholder="Messege" cols="30" rows="2"></textarea>
+                            <input type="submit" name="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <h5>&copy; Copyrights 2024 | Designed and Developed by <a href="#">Aachal Sahare</a></h5>
+    </aside>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-2x fa-arrow-circle-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
